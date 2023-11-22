@@ -1,0 +1,110 @@
+/* .mainsec {
+  margin-top: 40px;
+  background-color: #f0f0fb;
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 100vw;
+  border: 1px solid black;
+  height: auto;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+.sec2 {
+  display: flex;
+  flex-direction: column;
+
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.sec3 {
+  display: flex;
+  flex-direction: column;
+
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.imgcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+} */
+.mainsec {
+  margin-top: 0.06rem;
+  background-color: #f0f0fb;
+}
+/* .divchoose {
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+.rentalheadimg {
+  width: 100vw;
+  height: 30vh;
+}
+.headimg {
+  width: 100vw;
+
+  height: 35vh;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.rentalimgs {
+  display: flex;
+  height: auto;
+  gap: 0.5rem;
+  max-width: 100%;
+}
+.img {
+  min-width: 10rem;
+}
+
+@media (max-width: 899px) {
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .cardiscrip {
+    display: none;
+  }
+  .rentalimgs {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  .chevdiscrip {
+    display: none;
+  }
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .suzukidetails {
+    display: none;
+  }
+  .sec3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+}
