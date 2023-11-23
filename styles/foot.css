@@ -1,0 +1,148 @@
+@media (min-width: 900px) {
+  .foot {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* background: #020617; */
+    color: #fff;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    background-color: #f46b45;
+  }
+  .sectionsecsocial {
+    margin-top: 3.56rem;
+  }
+  .service {
+    margin-left: 1rem;
+  }
+
+  .servicesul {
+    text-decoration: underline;
+  }
+  .service h1 {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: #020617;
+  }
+  .footcontent {
+    display: flex;
+  }
+
+  .secondsec {
+    margin-left: 1rem;
+    padding-bottom: 1.43rem;
+  }
+  .secondsech1 {
+    font-size: 1.92rem;
+    color: #020617;
+    font-weight: 800;
+  }
+  .openhrs {
+    margin-bottom: 20px;
+  }
+  .openhrs h2 {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: #020617;
+  }
+  .openings {
+    display: flex;
+    gap: 5rem;
+  }
+  .secopening {
+    margin-left: 14rem;
+    margin-top: 12rem;
+  }
+  .copyrights {
+    /* border: 1px solid #020617; */
+    margin-left: 0;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 10px;
+    height: 40px;
+    width: 100vw;
+    color: white;
+    background-color: #020617;
+  }
+}
+
+@media (max-width: 899px) {
+  .foot {
+    min-width: 100vw;
+    min-height: 60vh;
+    /* border: 1px solid black; */
+    gap: 2rem;
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: column;
+    background-color: #020617;
+    color: #fff;
+  }
+  .firstseclogo {
+    display: none;
+  }
+  .servicesul {
+    font-size: 0.85rem;
+    text-decoration: underline;
+  }
+  .sectionsecsocial {
+    display: none;
+  }
+  .footerul {
+    font-size: 0.85rem;
+  }
+  .firstsec {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .secondsec {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .secondsech1 {
+    color: #f46b45;
+  }
+  .footcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 0.4rem;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .service h1 {
+    color: #f46b45;
+  }
+  .secopening {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .openings {
+    display: flex;
+    font-size: 0.85rem;
+    gap: 0.9rem;
+  }
+  .openhrs h2 {
+    color: #f46b45;
+  }
+  .secopening {
+    display: flex;
+    flex-direction: column;
+  }
+  .copyrights {
+    background-color: #f46b45;
+    color: #fff;
+    width: 100vw;
+    height: 9vh;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: auto;
+    margin-left: 0;
+  }
+}
