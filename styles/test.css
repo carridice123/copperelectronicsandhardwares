@@ -1,105 +1,257 @@
-* {
-  box-sizing: border-box;
+.sec1 {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  width: 100vw;
+  margin-top: 30px;
+  padding-top: 30px;
+  min-height: 70vh;
+  background-color: #f9f0fb;
 }
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+.sec2 {
+  padding-left: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: #f46b45;
+  color: #fff;
 }
-
-/* Hide the images by default */
-.mySlides {
-  display: fixed;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-.dotss {
-  cursor: pointer;
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  top: 90%;
-  /* margin-top: -22px; */
-  padding: 16px;
-  border: 1px solid red;
-}
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+.divheading {
+  /* border: 1px solid black; */
   text-align: center;
+  width: 100%;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+.heading {
+  font-weight: 900;
+  padding-bottom: 0.9rem;
+}
+.div1 {
+  /* border: 1px solid black; */
+  /* padding-top: 10px; */
+  padding-left: 20px;
+}
+.div2 {
+  /* border: 1px solid black; */
+  /* padding-top: 10px; */
+  padding-left: 10px;
+  background-color: #fff;
+
+  color: #000;
+}
+.div2ul {
+  padding-left: 0.8rem;
+  padding-top: 1rem;
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.div3 {
+  display: flex;
+  gap: 0.4rem;
+}
+.div4 {
+  display: flex;
+  gap: 0.4rem;
+}
+.divimg {
+  padding-right: 10px;
+}
+.hardwareh1 {
+  font-weight: 900;
+}
+.clock {
+  color: red;
+  width: 14px;
+  height: 14px;
+}
+.servicesul {
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+.servicesh1 {
+  font-weight: 900;
+  color: #333;
+}
+.servicesnaddress {
+  /* border: 1px solid black; */
+  margin-top: 0.8rem;
+  padding-top: 1.5rem;
+  font-size: 0.9rem;
+}
+.timedesk {
+  font-size: 0.85rem;
+  padding-right: 1.3rem;
+}
+.timesdesk {
+  font-size: 0.85rem;
+  padding-right: 1.3rem;
+}
+.servicesnaddress p {
+  width: 100%;
+  height: auto;
+  padding-right: 1.3rem;
+}
+
+.div3content {
+  /* border: 1px solid black; */
+  margin-top: 60px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.lis {
+  list-style-type: disc;
+}
+
+.googlemaps {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  /* we are working with 16 / 9 ratio = 0.5625 */
+  position: relative;
+  height: 0;
+}
+.googlemaps iframe {
+  left: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
   position: absolute;
-  top: 0;
+}
+.timemoney,
+.callusopen {
+  display: flex;
+  gap: 0.4rem;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #dad;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #00f;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 2.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
+@media (max-width: 899px) {
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 0;
   }
-  to {
-    opacity: 1;
+  .divheading {
+    background-color: #f9fafb;
+  }
+  .heading {
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-size: 1.48rem;
+    display: flex;
+    flex-direction: column;
+    color: #f46b45;
+  }
+  .headingmap {
+    margin-left: 2rem;
+    max-width: 90%;
+    height: auto;
+    padding-top: 30px;
+  }
+  .sec2 {
+    width: 100%;
+    height: 20rem;
+    padding-top: 3rem;
+    padding-right: 1.9rem;
+    box-shadow: none;
+  }
+  .lis {
+    list-style-type: none;
+  }
+  .div2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    color: #333;
+    background-color: #f9fafb;
+  }
+  .servicesh1 {
+    font-weight: 900;
+    font-size: 1.426rem;
+    color: #333;
+  }
+
+  .servicesul {
+    font-weight: 500;
+    font-size: 0.85rem;
+    line-height: 1.45rem;
+  }
+  .servicesnaddress {
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: #333;
+  }
+  .hardwarediv {
+    padding-right: 1.97rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hardwareh1 {
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: #f46b45;
+  }
+  .hardwareuls {
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+    font-size: 0.87rem;
+    color: #333;
+  }
+  .div3,
+  .div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+  }
+  .timemoney,
+  .callusopen {
+    display: flex;
+    color: #333;
+    gap: 0.4rem;
+  }
+  .div2ul li {
+    border: 1px solid #333;
+  }
+  .headingspann {
+    font-size: 0.567rem;
+    padding-top: 1.6rem;
+    color: #333;
+  }
+  .timedesk {
+    display: none;
+  }
+  .time {
+    font-size: 0.85rem;
+    padding-top: 0.4rem;
+  }
+  .times {
+    font-size: 0.85rem;
+    padding-top: 0.5rem;
+  }
+  .divimg {
+    width: 12vw;
+    height: 4vh;
+    padding-top: 0.098rem;
+  }
+  .timesdesk {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .headingspann {
+    display: none;
+  }
+  .time {
+    display: none;
+  }
+  .times {
+    display: none;
   }
 }
