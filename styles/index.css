@@ -151,6 +151,206 @@
   .times {
     display: none;
   }
+
+  /* windows and doors section */
+
+  .sec {
+    width: 100vw;
+    height: auto;
+    background-color: #f3f4f6;
+    color: #333;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  .secondparent {
+    display: flex;
+    gap: 0.7rem;
+    justify-content: center;
+  }
+  .img {
+    width: 80px;
+    height: 135px;
+  }
+  .imgradius {
+    width: 80%;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f4f6;
+  }
+  .imgradius1 {
+    width: 80%;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .secheader h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #333;
+  }
+  .secheader {
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.78rem;
+    padding-top: 0.6rem;
+    background-color: #fff;
+    width: 22%;
+    height: auto;
+    border-radius: 12px;
+  }
+  .container h2 {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #333;
+  }
+  /* windows and doors ends here */
+
+  /* manager sectioin starts here */
+
+  .managersec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    width: 100vw;
+    height: auto;
+    margin-top: 4.5rem;
+  }
+  .divp {
+    width: 80vw;
+    height: auto;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #333;
+    align-items: center;
+  }
+
+  .owner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .managerdiv1 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: 1px solid #000; */
+  }
+  .managerimg {
+    border-radius: 20px;
+    width: 51vw;
+    height: 56vh;
+    padding-top: 0.52rem;
+    border-bottom: #d00;
+  }
+  .ceo {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .ownername {
+    font-weight: 500;
+  }
+
+  /* manager desktop section ends here */
+
+  /* contacts desktop section starts here */
+
+  .contactssec1 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 2px 0px;
+    margin-top: 4.8rem;
+    /* padding-top: 2.58rem; */
+    background-color: #f9f0fb;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .contactssec2 {
+    padding: 130px;
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    gap: 1rem;
+    padding-top: 40px;
+  }
+  .contactsdiv1 {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contactsdiv1,
+  .div22,
+  .contactsdiv3 {
+    width: 33.333%;
+    height: auto;
+  }
+  .div1sub {
+    display: flex;
+    gap: 5px;
+  }
+  .contactsdiv2 {
+    display: flex;
+    gap: 5px;
+  }
+  .contactsdiv3 {
+    gap: 5px;
+    display: flex;
+    margin-left: 50px;
+  }
+  .div3h3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .div2h2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .divh1 {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+  }
+  .contactsh1 {
+    font-weight: 900;
+    font-size: 1.87rem;
+  }
+  .circle {
+    border-radius: 74%;
+    width: 54px;
+    height: 54px;
+    padding: 10px;
+    /* background: #f00; */
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+  }
+  .div22 {
+    display: flex;
+    gap: 1rem;
+  }
+  /* contacts desktop section ends here */
 }
 
 /* Desk top style ends */
@@ -568,4 +768,180 @@
   .timesdesk {
     display: none;
   }
+
+  /* Windows and doors section start here */
+  .sec {
+    width: 100vw;
+    height: auto;
+    background-color: #f3f4f6;
+    color: #333;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  .img {
+    width: 80px;
+    height: 135px;
+  }
+  .secondparent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 14px;
+  }
+  .imgradius {
+    width: 80%;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f4f6;
+  }
+  .imgradius1 {
+    width: 80%;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .secheader h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #333;
+  }
+  .secheader {
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.78rem;
+    padding-top: 0.6rem;
+    background-color: #fff;
+    border-radius: 12px;
+  }
+  .container h2 {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #333;
+  }
+  /* windows and doors ends here */
+
+  /* Manger section starts here */
+  .managersec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    width: 100vw;
+    height: auto;
+    margin-top: 4.5rem;
+  }
+  .divp {
+    width: 80vw;
+    height: auto;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #333;
+    align-items: center;
+  }
+
+  .owner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .managerdiv1 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: 1px solid #000; */
+  }
+  .managerimg {
+    border-radius: 20px;
+    width: 51vw;
+    height: 56vh;
+    padding-top: 0.52rem;
+    border-bottom: #d00;
+  }
+  .ceo {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .ownername {
+    font-weight: 500;
+  }
+  /* manager section ends here */
+
+  /* contacts mobile section starts here */
+
+  .contactssec1 {
+    min-width: 100%;
+    min-height: 60vh;
+    display: flex;
+    margin-top: 4.8rem;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f46b45;
+    /* border: 1px solid black; */
+  }
+  .div2h2 {
+    font-size: 13px;
+  }
+  .circle {
+    border-radius: 74%;
+    margin-left: 0.34rem;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    background: #f46b45;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+    font: 12px Arial, sans-serif;
+  }
+  .contactsh1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 0.9rem;
+  }
+  .contactssec2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+  .div1sub {
+    display: flex;
+    font-size: 13px;
+    gap: 1rem;
+  }
+  .contactsdiv3 {
+    display: flex;
+    font-size: 13px;
+    gap: 1rem;
+  }
+  .contactsdiv2 {
+    display: none;
+    font-size: 13px;
+    gap: 1rem;
+  }
+  .div22 {
+    display: flex;
+    font-size: 13px;
+    gap: 1rem;
+  }
+  /* contacts mobile section ends here */
 }

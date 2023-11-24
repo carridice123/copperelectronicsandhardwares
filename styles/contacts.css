@@ -1,5 +1,5 @@
 @media (min-width: 900px) {
-  .sec1 {
+  .contactssec1 {
     /* border: 1px solid black; */
     width: 100%;
     height: auto;
@@ -11,7 +11,7 @@
     flex-direction: column;
     gap: 3rem;
   }
-  .sec2 {
+  .contactssec2 {
     padding: 130px;
     display: flex;
     /* border: 1px solid black; */
@@ -19,15 +19,15 @@
     gap: 1rem;
     padding-top: 40px;
   }
-  .div1 {
+  .contactsdiv1 {
     margin-right: 50px;
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-  .div1,
+  .contactsdiv1,
   .div22,
-  .div3 {
+  .contactsdiv3 {
     width: 33.333%;
     height: auto;
   }
@@ -35,11 +35,11 @@
     display: flex;
     gap: 5px;
   }
-  .div2 {
+  .contactsdiv2 {
     display: flex;
     gap: 5px;
   }
-  .div3 {
+  .contactsdiv3 {
     gap: 5px;
     display: flex;
     margin-left: 50px;
@@ -79,7 +79,7 @@
 }
 
 @media (max-width: 899px) {
-  .sec1 {
+  .contactssec1 {
     min-width: 100%;
     min-height: 60vh;
     display: flex;
@@ -111,7 +111,7 @@
     font-weight: 900;
     padding-top: 0.9rem;
   }
-  .sec2 {
+  .contactssec2 {
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
@@ -122,12 +122,12 @@
     font-size: 13px;
     gap: 1rem;
   }
-  .div3 {
+  .contactsdiv3 {
     display: flex;
     font-size: 13px;
     gap: 1rem;
   }
-  .div2 {
+  .contactsdiv2 {
     display: none;
     font-size: 13px;
     gap: 1rem;
