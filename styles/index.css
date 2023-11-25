@@ -749,10 +749,19 @@
   .sec2 {
     width: 100%;
     height: 20rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-right: 1.9rem;
     box-shadow: none;
+    color: #ddd;
+    background-color: #a00;
   }
+  .aboutdiv1 {
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .lis {
     list-style-type: none;
   }
@@ -766,7 +775,7 @@
   .servicesh1 {
     font-weight: 900;
     font-size: 1.426rem;
-    color: #333;
+    color: ddd;
   }
 
   .div2ul {
@@ -778,7 +787,7 @@
   }
   .servicesul {
     font-weight: 500;
-    font-size: 0.85rem;
+    font-size: 0.89rem;
     line-height: 1.45rem;
   }
   .servicesnaddress {
@@ -804,6 +813,7 @@
     font-size: 0.87rem;
     color: #333;
   }
+
   .aboutdiv3,
   .aboutdiv4 {
     display: flex;
