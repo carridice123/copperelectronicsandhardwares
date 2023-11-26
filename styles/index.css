@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Desktop style starts here */
 
 @media (min-width: 900px) {
@@ -433,7 +438,7 @@
   }
   .sec11 {
     width: 100%;
-    height: 2000px;
+    height: auto;
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -445,13 +450,13 @@
     min-width: 360px;
     padding: 0px;
   }
-  #containerr {
+  /* #containerr {
     padding: 0px;
     margin: 0px;
     min-width: 300px;
     height: auto;
     border: 2px solid blue;
-  }
+  } */
   .row {
     padding: 0px;
     margin: 0px;
@@ -501,6 +506,7 @@
 
     overflow: hidden;
   }
+  /* navigation bar starts here */
 
   #menuToggle {
     display: flex;
@@ -510,7 +516,7 @@
     background-color: #00f;
     position: relative;
 
-    z-index: 1;
+    z-index: 11;
     -webkit-user-select: none;
     user-select: none;
   }
@@ -522,7 +528,7 @@
     position: absolute;
     cursor: pointer;
     opacity: 0;
-    z-index: 2;
+    z-index: 12;
   }
 
   #menuToggle span {
@@ -535,7 +541,7 @@
     margin-bottom: 0.2rem;
     position: relative;
     background: #fff;
-    z-index: 1;
+    z-index: 11;
     transform-origin: 5px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
       background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
@@ -573,7 +579,7 @@
     margin: -50px 0 0 -50px;
     padding: 50px;
     padding-top: 8rem;
-
+    z-index: 9;
     background-color: #060b26;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
@@ -640,19 +646,19 @@
 
   .main-wrapper {
     width: 100vw;
-    margin: auto;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     /* border: 1px solid black; */
-    max-height: 500px;
+    max-height: 400px;
     padding: 0px;
     padding-top: -20px;
   }
   .slider-wrapper {
-    width: 50%;
-    height: 500px;
+    width: 100%;
+    height: 400px;
     display: flex;
     align-items: center;
     position: relative;
@@ -663,7 +669,12 @@
   .slides {
     width: 100%;
     position: absolute;
+    height: 400px;
     transition: transform 0.4s ease-in-out;
+  }
+  .sliderimg {
+    width: 100%;
+    height: 500px;
   }
   .slides h1 {
     position: relative;
@@ -682,8 +693,7 @@
     position: absolute;
     top: 50%;
     z-index: 2;
-    width: 100;
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -691,7 +701,7 @@
   .slider-btns span {
     padding: 1rem 1.2rem;
     font-size: 1.5rem;
-    background: rgba(255, 255, 255, 0.151);
+    background: rgba(54, 40, 40, 0.151);
     border-radius: 50%;
     color: white;
     cursor: pointer;
@@ -716,6 +726,7 @@
     transition: opacity 0.2s ease-in-out;
     cursor: pointer;
   }
+  /* image slider ends here */
 
   /* About-------------------------------------------   */
 
@@ -866,6 +877,7 @@
     width: 100%;
     position: absolute;
   }
+  /*  about section ends here*/
 
   /* Windows and doors section start here */
   .sec {
@@ -1050,7 +1062,6 @@
     min-width: 100vw;
     min-height: 60vh;
     /* border: 1px solid black; */
-    gap: 2rem;
     display: flex;
     padding-top: 1rem;
     flex-direction: column;

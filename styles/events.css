@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: 900px) {
   /* .firstsec {
       background-color: #f0f0fb;
@@ -223,12 +228,13 @@
     flex-direction: column;
     gap: 0.4rem;
     align-items: center;
+    padding-left: 0.99rem;
   }
   .img {
-    width: 47vh;
-    height: auto;
+    width: 85vw;
+    height: 50vh;
     border-radius: 5px;
-    border: 1px solid #f00;
+    border-bottom: 2px solid #f00;
   }
   .hosting,
   .hosting2,
@@ -270,4 +276,342 @@
     color: #333;
     font-weight: 800;
   }
+  /* mobile about start here */
+
+  .sec122 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    padding-bottom: 1rem;
+
+    margin-top: 0;
+  }
+  .divheading {
+    background-color: #f9fafb;
+  }
+  .heading {
+    margin-bottom: 2rem;
+    font-weight: 900;
+    font-size: 1.48rem;
+    display: flex;
+    flex-direction: column;
+    color: #f46b45;
+  }
+  .headingmap {
+    margin-left: 2rem;
+    max-width: 90%;
+    height: auto;
+    padding-top: 30px;
+  }
+  .sec229 {
+    width: 100%;
+    height: 20rem;
+    padding-top: 1rem;
+    padding-right: 1.9rem;
+    box-shadow: none;
+    color: #ddd;
+    background-color: #a00;
+  }
+  .aboutdiv1 {
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lis {
+    list-style-type: none;
+  }
+  .aboutdiv2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    color: #333;
+    background-color: #f9fafb;
+  }
+  .servicesh1 {
+    font-weight: 900;
+    font-size: 1.426rem;
+    color: ddd;
+  }
+
+  .div2ul {
+    padding-left: 0.8rem;
+    padding-top: 1rem;
+    padding-top: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .servicesul {
+    font-weight: 500;
+    font-size: 0.89rem;
+    line-height: 1.45rem;
+  }
+  .servicesnaddress {
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: #333;
+  }
+  .hardwarediv {
+    padding-right: 1.97rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hardwareh1 {
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: #f46b45;
+  }
+  .hardwareuls {
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+    font-size: 0.87rem;
+    color: #333;
+  }
+
+  .aboutdiv3,
+  .aboutdiv4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+  }
+  .timemoney ul,
+  .callusopen ul {
+    text-decoration: none;
+    list-style: none;
+  }
+  .timemoney,
+  .callusopen {
+    display: flex;
+    color: #333;
+    gap: 0.4rem;
+  }
+  .div2ul li {
+    border: 1px solid #333;
+  }
+  .headingspann {
+    font-size: 0.567rem;
+    padding-top: 1.6rem;
+    color: #333;
+  }
+  .timedesk {
+    display: none;
+  }
+  .time {
+    font-size: 0.85rem;
+    padding-top: 0.4rem;
+  }
+  .times {
+    font-size: 0.85rem;
+    padding-top: 0.5rem;
+  }
+  .divimg {
+    width: 12vw;
+    height: 4vh;
+    padding-top: 0.098rem;
+  }
+  .timesdesk {
+    display: none;
+  }
+  .googlemaps {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    /* we are working with 16 / 9 ratio = 0.5625 */
+    position: relative;
+    height: 0;
+  }
+  .googlemaps iframe {
+    left: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  /* about section ends here */
+  /* contacts start here */
+  .contactssec1 {
+    min-width: 100%;
+    min-height: 60vh;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f46b45;
+    /* border: 1px solid black; */
+  }
+  .div2h2 {
+    font-size: 13px;
+  }
+  .circle {
+    border-radius: 74%;
+    margin-left: 0.34rem;
+    width: 28px;
+    height: 28px;
+    padding: 10px;
+    background: #f46b45;
+    border: 2px solid #171717;
+    color: #000;
+    text-align: center;
+    font: 16px Arial, sans-serif;
+    font-weight: 800;
+  }
+  .contactsh11 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 0.9rem;
+  }
+  .contactssec2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+  .div1sub {
+    display: flex;
+    font-size: 13px;
+    gap: 1rem;
+  }
+  .contactsdiv3 {
+    display: flex;
+    font-size: 13px;
+    gap: 1rem;
+  }
+  .contactsdiv2 {
+    display: none;
+    font-size: 13px;
+    gap: 1rem;
+  }
+  .div22 {
+    display: flex;
+    font-size: 13px;
+    gap: 1rem;
+  }
+
+  /* contacts ends here */
+
+  /* footer start here */
+
+  .foot {
+    min-width: 100vw;
+    min-height: 60vh;
+    /* border: 1px solid black; */
+    gap: 2rem;
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: column;
+    background-color: #020617;
+    color: #fff;
+  }
+  .firstseclogo {
+    display: none;
+  }
+
+  .servicesul li {
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+  .servicesul a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .servicesul a:focus {
+    text-decoration: underline;
+  }
+
+  li {
+    list-style: none;
+  }
+  .sectionsecsocial {
+    display: none;
+  }
+
+  .footerul {
+    font-size: 0.85rem;
+    padding-left: 0.3rem;
+  }
+  .footerul a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .footerul a:focus {
+    text-decoration: underline;
+  }
+  .servicesul {
+    padding: 1rem;
+  }
+
+  .firstsec {
+    display: flex;
+    flex-direction: column;
+  }
+  .footsecondsec {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.3rem;
+  }
+  .secondsec,
+  .openhrs,
+  .service h1 {
+    padding-left: 1rem;
+  }
+  .footsecondsech1 {
+    color: #f46b45;
+    font-size: 1.15rem;
+    padding-left: 0.3rem;
+  }
+  .footcontent {
+    display: flex;
+    flex-direction: column;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+  }
+  .service h1 {
+    color: #f46b45;
+    font-size: 1.15rem;
+  }
+
+  .secopening {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .openings {
+    display: flex;
+    font-size: 0.85rem;
+    gap: 0.9rem;
+    padding: 1rem;
+    margin: 0;
+  }
+  .openingdays ul {
+    padding: 0;
+  }
+  .openhrs h2 {
+    color: #f46b45;
+    font-size: 1.15rem;
+  }
+  .greaterthan {
+    padding-top: 0.35rem;
+    color: #d1d5db;
+  }
+  .copyrights {
+    background-color: #f46b45;
+    color: #fff;
+    width: 100vw;
+    height: 9vh;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: auto;
+    margin-left: 0;
+  }
+
+  /* footer ends here */
 }
