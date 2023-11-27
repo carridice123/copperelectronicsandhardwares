@@ -7,6 +7,44 @@
     width: 100%;
     height: auto;
   }
+  /* desktop nav */
+  .navcontent {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    z-index: 9;
+  }
+  .navs {
+    max-width: 100%;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+  }
+  .navul {
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 0.5rem;
+    /* background-color: #020617; */
+    background-color: #060b26;
+    z-index: 9;
+
+    color: #fff;
+    width: 95%;
+  }
+  .navhome {
+    display: none;
+  }
+  .phone {
+    display: flex;
+    /* border: 1px solid white; */
+    width: 20%;
+    gap: 0.4rem;
+  }
+  /* desktop nav ends here */
 
   .sec11 {
     display: none;
@@ -431,6 +469,10 @@
     width: 100%;
     height: auto;
   }
+  .navcontent {
+    display: none;
+  }
+  /* disallow desktop nav */
   .sec11 {
     width: 100%;
     height: auto;
