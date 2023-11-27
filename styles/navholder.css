@@ -1,118 +1,99 @@
-.navigation {
-  width: 100%;
-  min-height: 3.5rem;
-  display: flex;
-  background-color: #00f;
-  justify-content: space-around;
-  gap: 2rem;
-}
-.nameofcompany {
-  width: 60%;
-  margin-left: 4rem;
-  text-align: center;
-  height: 3.5rem;
-  border: 1px solid #fff;
-}
-.navigationh1 {
-  position: absolute;
+<link rel="stylesheet" href="./styles/navtester.css">
 
-  background-color: #00f;
-}
-#menuToggle {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 3.5rem;
-  background-color: #060b26;
-  position: relative;
 
-  z-index: 11;
-  -webkit-user-select: none;
-  user-select: none;
-}
+/* REMEMBERTO DELETE THIS AND OTHER WASTE FILES */
+<!-- Navigation starts here -->
+ <nav class="navbar">
+  <div class="navbar-container container">
+      <input type="checkbox" name="" id="">
+      <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+      </div>
+      <ul class="menu-items">
+        <a href="./index.html">
+          <li>
+          <i class="fa-solid fa-house icon"></i>
+          Home</li></a>
+        <a href="./electronics.html"> <li>
+          <i class="fa-solid fa-radio icon"></i>
+          
+          Electronics
+          <i class="fa-solid fa-angle-right angle"></i>
+        </li></a>
+        <a href="./constructions.html"><li>
+          <i class="fa-solid fa-person-digging icon"></i>
+          
+          Construction
+          <i class="fa-solid fa-angle-right angle"></i>
+        </li></a>  
+        <a href="./events.html"><li>
+          <i class="fa-solid fa-user-group icon"></i>
+          
+          Events
+          <i class="fa-solid fa-angle-right angle"></i>
+        </li></a>
+        <a href="./rentals.html"><li>
+          <i class="fa-solid fa-car-side icon"></i>
+          
+          Rental cars
+                    <i class="fa-solid fa-angle-right angle"></i>
+        </li></a>
 
-#menuToggle input {
-  display: flex;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  cursor: pointer;
-  opacity: 0;
-  z-index: 12;
-}
+          <ul class="sidebarabout">
+            <a href="#about" class="sidebarabouta"><li>
+              About us
+            </li></a>
+            <a href="#contacts" class="sidebarcontactsa"><li>
+              Contact us
+            </li></a>
+            <li class="callnow">
+              <i class="fa-solid callnowphone fa-phone"></i>
+              <a href="tel:8764549844" class="sidebarcallnowa">
+                Call now
+              </a>
+      
+            </li>
+            
+          </ul>
+      </ul>
 
-#menuToggle span {
-  display: flex;
-  width: 29px;
-  height: 0.3rem;
-  margin-left: 1rem;
-  top: 1rem;
-  border-radius: 0.099rem;
-  margin-bottom: 0.2rem;
-  position: relative;
-  background: #fff;
-  z-index: 11;
-  transform-origin: 5px 0px;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-}
 
-#menuToggle span:first-child {
-  transform-origin: 0% 0%;
-}
+  </div>
+  <p class="logo">Copper Electronics&Hardwares</p>
 
-#menuToggle span:nth-last-child(2) {
-  transform-origin: 0% 100%;
-}
+</nav>
+  <!-- nav ends here -->
 
-#menuToggle input:checked ~ span {
-  opacity: 1;
-  transform: rotate(45deg) translate(-1px, -1px);
-  background: #fff;
-}
-#menuToggle input:checked ~ span:nth-last-child(3) {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.1, 0.1);
-}
 
-#menuToggle input:checked ~ span:nth-last-child(2) {
-  transform: rotate(-50deg) translate(1px, 0px);
-}
+           <!-- second Nav--------------------------------------------------------------------------------- -->
+            <section class='mobilesecnav'>
+              <section class='secnavcontent'>
+                <ul class='div1'>
+                    <li class='clockicon'>
+                      <i class="fa-regular fa-clock"></i>
+                    </li>
+                  <span class='spanhours'>Sun to Sun-7:00AM to 10:00PM</span>
+                </ul>
+                <ul class='div2'>
+                    <a href="https://www.instagram.com/copperelectronics">
+                      <li>
+                        <i class="fa-brands fa-instagram instagram"></i>
+          
+                      </li>
+                    </a>
+                    <li>
+                      <a href="https://www.tiktok.com/@copper.electronic">
+                          <i class="fa-brands fa-tiktok tiktok"></i>
+                      </a>
+                    </li>
+                </ul>
+              </section>
+            </section>
+ /* SECOND NAV IN RED------------------------- */
 
-#menu {
-  position: absolute;
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  box-shadow: 0 0 10px #85888c;
-  margin: -50px 0 0 -50px;
-  padding: 50px;
-  padding-top: 8rem;
-  z-index: 9;
-  background-color: #060b26;
-  -webkit-font-smoothing: antialiased;
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  transition: transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1);
-}
-#menu li {
-  padding: 0.9rem 0;
-  transition-delay: 2s;
-  padding-left: 1.4rem;
-  color: #fff;
-}
-li {
-  display: flex;
-  gap: 1rem;
-}
-
-#menuToggle input:checked ~ ul {
-  transform: none;
-}
-/* SECOND NAV IN RED------------------------- */
-
-.mobilesecnav {
+  .mobilesecnav {
   display: flex;
   width: 100%;
   min-height: 3rem;
@@ -150,121 +131,50 @@ li {
   text-decoration: underline;
 }
 
-/* mobile side bar ends here */
+/* mobile  second nav ends here */
 
-/* just in case */
-
-/* navigation bar starts here */
-.navigation {
-  width: 100%;
-  min-height: 3.5rem;
-  display: flex;
-  background-color: #00f;
-  justify-content: space-around;
-  gap: 2rem;
-}
-.nameofcompany {
-  width: 60%;
-  margin-left: 4rem;
-  text-align: center;
-  height: 3.5rem;
-  border: 1px solid #fff;
-}
-.navigationh1 {
-  position: absolute;
-
-  background-color: #00f;
-}
-#menuToggle {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 3.5rem;
-  background-color: #060b26;
-  position: relative;
-
-  z-index: 11;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-#menuToggle input {
-  display: flex;
-  width: 40px;
+.circle {
+  border-radius: 74%;
+  margin-left: 0.34rem;
+  width: 34px;
   height: 32px;
-  position: absolute;
-  cursor: pointer;
-  opacity: 0;
-  z-index: 12;
+  padding: 10px;
+  background: #f46b45;
+  border: 2px solid #171717;
+  color: #000;
+  text-align: center;
+  font: 16px Arial, sans-serif;
+  font-weight: 800;
 }
 
-#menuToggle span {
+.contactssec1 {
+  min-width: 100%;
+  min-height: 60vh;
   display: flex;
-  width: 29px;
-  height: 0.3rem;
-  margin-left: 1rem;
-  top: 1rem;
-  border-radius: 0.099rem;
-  margin-bottom: 0.2rem;
-  position: relative;
-  background: #fff;
-  z-index: 11;
-  transform-origin: 5px 0px;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-}
+  margin-top: 4.8rem;
 
-#menuToggle span:first-child {
-  transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2) {
-  transform-origin: 0% 100%;
-}
-
-#menuToggle input:checked ~ span {
-  opacity: 1;
-  transform: rotate(45deg) translate(-1px, -1px);
-  background: #fff;
-}
-#menuToggle input:checked ~ span:nth-last-child(3) {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.1, 0.1);
-}
-
-#menuToggle input:checked ~ span:nth-last-child(2) {
-  transform: rotate(-50deg) translate(1px, 0px);
-}
-
-#menu {
-  position: absolute;
-  width: 60%;
-  display: flex;
   flex-direction: column;
-  height: 100vh;
-  box-shadow: 0 0 10px #85888c;
-  margin: -50px 0 0 -50px;
-  padding: 50px;
-  padding-top: 8rem;
-  z-index: 9;
-  background-color: #060b26;
-  -webkit-font-smoothing: antialiased;
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  transition: transform 0.6s cubic-bezier(0.77, 0.2, 0.05, 1);
+  justify-content: flex-start;
+  background-color: #f46b45;
+  /* border: 1px solid black; */
 }
-#menu li {
-  padding: 0.9rem 0;
-  transition-delay: 2s;
-  padding-left: 1.4rem;
+
+/* SECOND NAV IN RED- */
+
+.mobilesecnav {
+  display: flex;
+  width: 100%;
+  padding-top: 0.5rem;
+  min-height: 3rem;
+  background-color: brown;
   color: #fff;
 }
-li {
-  display: flex;
-  gap: 1rem;
-}
 
-#menuToggle input:checked ~ ul {
-  transform: none;
+.aboutdiv2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.8rem;
+  gap: 1rem;
+  color: #333;
+  background-color: #f9fafb;
 }
-/* Navigation end here */

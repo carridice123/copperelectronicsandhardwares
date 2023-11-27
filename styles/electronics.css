@@ -334,6 +334,47 @@ body {
 }
 
 @media (max-width: 899px) {
+  /* SECOND NAV IN RED------------------------- */
+
+  .mobilesecnav {
+    display: flex;
+    width: 100%;
+    min-height: 3rem;
+    background-color: brown;
+    color: #fff;
+  }
+  .instagram,
+  .tiktok {
+    color: #fff;
+  }
+  .secnavcontent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 4rem;
+    align-items: center;
+  }
+  .spanhours {
+    font-weight: 400;
+  }
+  .clockicon {
+    padding-top: 0.13rem;
+    padding-right: 0.3rem;
+  }
+  .div1 {
+    display: flex;
+    gap: 0.23rem;
+  }
+  .div2 {
+    display: flex;
+    gap: 0.7rem;
+  }
+  .clock {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  /* mobile  second nav ends here */
   .imgcontainer {
     display: none;
   }
@@ -483,7 +524,7 @@ body {
     width: 100vw;
     height: auto;
     padding-bottom: 1rem;
-    margin-top: 0;
+    margin-top: 1rem;
   }
   .divheading {
     background-color: #f9fafb;
@@ -524,7 +565,8 @@ body {
   .aboutdiv2 {
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
+    padding-top: 0.8rem;
+    gap: 1rem;
     color: #333;
     background-color: #f9fafb;
   }
@@ -648,8 +690,8 @@ body {
   .circle {
     border-radius: 74%;
     margin-left: 0.34rem;
-    width: 28px;
-    height: 28px;
+    width: 34px;
+    height: 32px;
     padding: 10px;
     background: #f46b45;
     border: 2px solid #171717;

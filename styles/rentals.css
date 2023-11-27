@@ -45,7 +45,7 @@ body {
 
 .mainsec {
   margin-top: 0.06rem;
-  background-color: #f0f0fb;
+  background-color: #fff;
 }
 
 .rentalheadimg {
@@ -72,6 +72,48 @@ body {
 }
 
 @media (max-width: 899px) {
+  /* SECOND NAV IN RED- */
+
+  .mobilesecnav {
+    display: flex;
+    width: 100%;
+    padding-top: 0.5rem;
+    min-height: 3rem;
+    background-color: brown;
+    color: #fff;
+  }
+  .instagram,
+  .tiktok {
+    color: #fff;
+  }
+  .secnavcontent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 4rem;
+    align-items: center;
+  }
+  .spanhours {
+    font-weight: 400;
+  }
+  .clockicon {
+    padding-top: 0.13rem;
+    padding-right: 0.3rem;
+  }
+  .div1 {
+    display: flex;
+    gap: 0.23rem;
+  }
+  .div2 {
+    display: flex;
+    gap: 0.7rem;
+  }
+  .clock {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  /* mobile  second nav ends here */
   .sec1 {
     display: flex;
     flex-direction: column;
@@ -113,10 +155,10 @@ body {
     text-align: center;
     width: 100vw;
     height: auto;
-    margin-top: 0;
+    margin-top: 1rem;
   }
   .divheading {
-    background-color: #f9fafb;
+    background-color: #fffafb;
   }
   .heading {
     margin-bottom: 2rem;
@@ -154,9 +196,10 @@ body {
   .aboutdiv2 {
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
+    padding-top: 0.6rem;
+    gap: 0.6rem;
     color: #333;
-    background-color: #f9fafb;
+    background-color: #fff;
   }
   .servicesh1 {
     font-weight: 900;
@@ -266,7 +309,7 @@ body {
     min-width: 100%;
     min-height: 60vh;
     display: flex;
-    margin-top: 4.8rem;
+    margin-top: 1.8rem;
 
     flex-direction: column;
     justify-content: flex-start;
@@ -279,8 +322,8 @@ body {
   .circle {
     border-radius: 74%;
     margin-left: 0.34rem;
-    width: 28px;
-    height: 28px;
+    width: 34px;
+    height: 32px;
     padding: 10px;
     background: #f46b45;
     border: 2px solid #171717;
