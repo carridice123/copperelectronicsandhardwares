@@ -13,6 +13,11 @@ body {
   .contacts {
     display: none;
   }
+
+  nav_bar .active {
+    color: #f8f8f8;
+    background-color: #4f81bd;
+  }
   /* desktop nav widht email and call icon */
   .navcontent {
     position: fixed;
@@ -124,6 +129,29 @@ body {
   }
   .socials a {
     color: #060b26;
+  }
+  /* socials section ends here */
+  /* deskpage nav starts here */
+  .deskpagesnav {
+    display: flex;
+    width: 100%;
+    min-height: 2rem;
+    justify-content: space-around;
+    margin-left: 4rem;
+  }
+  .deskpagesnav a {
+    text-decoration: none;
+    color: #060b26;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .deskpagesnav li {
+    list-style: none;
+  }
+  /* styles for clicking on diff page */
+
+  .activelink {
+    border: 3px solid #f00;
   }
 }
 

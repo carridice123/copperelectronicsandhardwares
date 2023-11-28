@@ -70,6 +70,12 @@ body {
 .img {
   min-width: 10rem;
 }
+@media (min-width: 900px) {
+  .navbar,
+  .mobilesecnav {
+    display: none;
+  }
+}
 
 @media (max-width: 899px) {
   /* SECOND NAV IN RED- */
