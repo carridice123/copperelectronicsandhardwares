@@ -323,17 +323,18 @@
     /* border: 1px solid black; */
     /* padding-top: 10px; */
     padding-left: 10px;
-    background-color: #fff;
+    background-color: #eee;
 
-    color: #000;
+    color: #333;
   }
 
   .div2ul {
     padding-left: 0.8rem;
     padding-top: 1rem;
     padding-top: 1.5rem;
-    font-size: 0.9rem;
-    font-weight: 700;
+    font-size: 0.997rem;
+    font-weight: 800;
+    color: #333;
   }
   .aboutdiv3 {
     display: flex;
@@ -348,6 +349,8 @@
   }
   .hardwareh1 {
     font-weight: 900;
+    font-size: 1.3rem;
+    color: #333;
   }
   .clock {
     color: red;
@@ -359,6 +362,10 @@
     font-size: 0.99rem;
     font-weight: 900;
     text-decoration: none;
+  }
+  .callusopen,
+  .timemoney li {
+    list-style: none;
   }
 
   .servicesh1 {
@@ -430,6 +437,7 @@
   .times {
     display: none;
   }
+  /* desktop about ends here */
 
   /* windows and doors section */
 
