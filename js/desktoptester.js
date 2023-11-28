@@ -10,7 +10,7 @@ if(pageName === "electronics.html"){
 }
 
 if(pageName === "constructions.html"){
-    document.querySelector(".constructionpage").classList.add('active')
+    document.querySelector(".constructionspage").classList.add('active')
 }
 if(pageName === "events.html"){
     document.querySelector(".eventspage").classList.add('active')

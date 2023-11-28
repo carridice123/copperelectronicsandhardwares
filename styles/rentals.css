@@ -75,6 +75,178 @@ body {
   .mobilesecnav {
     display: none;
   }
+
+  #nav_bar .active {
+    color: #f8f8f8;
+    background-color: #4f81bd;
+  }
+  /* desktop nav widht email and call icon */
+  .navcontent {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    z-index: 1;
+    background-color: #ffff00;
+  }
+  .navs {
+    max-width: 100%;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+  }
+  .mail a {
+    text-decoration: none;
+
+    color: #dde;
+  }
+  .mail a:hover {
+    text-decoration: underline;
+  }
+
+  .navul li {
+    list-style: none;
+  }
+  .navul {
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top: 1rem;
+    /* background-color: #020617; */
+    text-decoration: none;
+    background-color: #060b26;
+    z-index: 1;
+
+    color: #fff;
+    width: 95%;
+    min-height: 50px;
+  }
+  .navhome {
+    display: none;
+  }
+  .phoneicon {
+    display: flex;
+    /* border: 1px solid white; */
+    width: 20%;
+    gap: 0.4rem;
+  }
+
+  .navlis {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #dff;
+  }
+  /* desk top nav with email ends here */
+  .desktopfirstsec {
+    /* border: 1px solid black; */
+    width: 100vw;
+    min-height: 290px;
+    z-index: 2;
+    background-color: #ffff00;
+    /* padding-top: 4rem; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  /* dont touch */
+  .desktopsec2 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 20px;
+    height: 20vh;
+    margin-top: 6rem;
+  }
+  .desksecnav {
+    width: 100vw;
+    height: auto;
+  }
+  .desktopicons {
+    font-size: 35px;
+  }
+  .logo {
+    display: flex;
+    width: 100vw;
+    height: 200px;
+  }
+  .logoimg {
+    min-width: 200px;
+    height: 150px;
+  }
+  .mediahelp {
+    display: none;
+  }
+  .socials i:hover {
+    color: #f00;
+  }
+
+  .socials {
+    margin-left: 240px;
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+  }
+  .socials a {
+    color: #060b26;
+  }
+  /* socials section ends here */
+  /* deskpage nav starts here */
+  /* IMPORTING ****#######################SOME STYLES FROM MOBILE BELOW */
+
+  .sec11 {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .containers {
+    width: 100%;
+    min-height: 130px;
+  }
+  .phone {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+  }
+  .content {
+    width: 100%;
+    height: auto;
+    background-color: #fafafa;
+
+    overflow: hidden;
+  }
+
+  /* SYTES FROM MOBILE ABOVE ##########*******##*/
+  /* styles for styling current page */
+  .deskpagesnav {
+    display: flex;
+    width: 100%;
+    min-height: 2rem;
+    justify-content: space-around;
+    margin-left: 4rem;
+  }
+  .deskpagesnav a {
+    text-decoration: none;
+    color: #060b26;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .deskpagesnav li {
+    list-style: none;
+  }
+  /* styles for clicking on diff page */
+
+  .activelink {
+    border: 3px solid #f00;
+  }
 }
 
 @media (max-width: 899px) {
