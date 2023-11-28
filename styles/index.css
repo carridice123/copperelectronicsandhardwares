@@ -24,6 +24,8 @@
     height: auto;
     /* border: 1px solid black; */
     z-index: 1;
+    overflow: hidden;
+
     background-color: #ffff00;
   }
   .navs {
@@ -80,6 +82,8 @@
     /* border: 1px solid black; */
     width: 100vw;
     min-height: 290px;
+    overflow: hidden;
+
     z-index: 2;
     background-color: #ffff00;
     /* padding-top: 4rem; */
@@ -150,6 +154,7 @@
     margin: 0px;
     padding: 0px;
     height: auto;
+    overflow: hidden;
 
     display: flex;
     justify-content: center;
@@ -264,10 +269,6 @@
   }
   /* styles for clicking on diff page */
 
-  .activelink {
-    border: 3px solid #f00;
-  }
-
   /* desktop nav ends here */
   /* PREVENT MOBILE SYLES ON DESKTOP */
   /* .sec11 {
@@ -279,6 +280,7 @@
   .mobilesecnav {
     display: none;
   }
+  /* Desk top about section starts here */
   .sec1 {
     /* border: 1px solid black; */
     display: grid;
@@ -295,6 +297,7 @@
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     background-color: #f46b45;
     color: #fff;
+    list-style: none;
   }
   .divheading {
     /* border: 1px solid black; */
@@ -304,12 +307,17 @@
 
   .heading {
     font-weight: 900;
-    padding-bottom: 0.9rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.4rem;
+    color: #333;
   }
   .aboutdiv1 {
     /* border: 1px solid black; */
-    /* padding-top: 10px; */
-    padding-left: 20px;
+    padding-left: 1.53rem;
+    display: flex;
+    padding-top: 0.2rem;
+    flex-direction: column;
+    gap: 0.6rem;
   }
   .aboutdiv2 {
     /* border: 1px solid black; */
@@ -319,6 +327,7 @@
 
     color: #000;
   }
+
   .div2ul {
     padding-left: 0.8rem;
     padding-top: 1rem;
@@ -345,13 +354,16 @@
     width: 14px;
     height: 14px;
   }
-  .servicesul {
-    padding-top: 1.5rem;
-    font-size: 0.9rem;
-    font-weight: 800;
+  .servicesuls {
+    padding-top: 0.4rem;
+    font-size: 0.99rem;
+    font-weight: 900;
+    text-decoration: none;
   }
+
   .servicesh1 {
     font-weight: 900;
+    font-size: 1.3rem;
     color: #333;
   }
   .servicesnaddress {
@@ -383,7 +395,7 @@
     gap: 18px;
   }
   .lis {
-    list-style-type: disc;
+    text-decoration: none;
   }
 
   .googlemaps {
