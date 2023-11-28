@@ -95,8 +95,9 @@ body {
     } */
 
   #nav_bar .active {
-    color: #f8f8f8;
-    background-color: #4f81bd;
+    color: #0c0;
+    border-bottom: 3px solid #d00;
+    border-radius: 5px;
   }
   /* desktop nav widht email and call icon */
   .navcontent {

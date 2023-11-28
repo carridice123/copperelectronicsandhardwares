@@ -15,8 +15,9 @@
   }
 
   #nav_bar .active {
-    color: #f8f8f8;
-    background-color: #4f81bd;
+    color: #0c0;
+    border-bottom: 3px solid #d00;
+    border-radius: 5px;
   }
   /* desktop nav widht email and call icon */
   .navcontent {
@@ -69,9 +70,12 @@
     display: flex;
     /* border: 1px solid white; */
     width: 20%;
+    color: #fff;
     gap: 0.4rem;
   }
-
+  .mail {
+    color: #dde;
+  }
   .navlis {
     font-size: 1rem;
     font-weight: 900;
@@ -660,8 +664,16 @@
     margin-left: 1rem;
   }
 
-  .servicesul {
+  .servicesul li,
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: #060b26;
+    font-weight: 900;
+  }
+  .servicesul li:hover {
     text-decoration: underline;
+    text-shadow: #d1d5db;
   }
   .service h1 {
     font-size: 1.85rem;
@@ -671,7 +683,24 @@
   .footcontent {
     display: flex;
   }
-
+  .desktopemail,
+  .footerul a {
+    color: #060b26;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .footerul li {
+    list-style-type: none;
+  }
+  .desktopfootimg {
+    width: 280px;
+    height: 200px;
+  }
+  .footercall,
+  .desktopcalls {
+    color: #060b26;
+    font-weight: 700;
+  }
   .secondsec {
     margin-left: 1rem;
     padding-bottom: 1.43rem;
@@ -692,6 +721,20 @@
   .openings {
     display: flex;
     gap: 5rem;
+  }
+  .openingdays a,
+  li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #060b26;
+    font-weight: 800;
+  }
+  .opening li {
+    list-style-type: none;
+  }
+  .openinghrs {
+    color: #060b26;
+    font-weight: 600;
   }
   .secopening {
     margin-left: 14rem;
@@ -732,6 +775,10 @@
     display: flex;
     flex-direction: column;
     padding: 0px;
+  }
+  /* disallow footer logo on mobile */
+  .desktopfootimg {
+    display: none;
   }
   /* side bar for mobile */
 
@@ -1363,6 +1410,7 @@
     color: #f46b45;
     font-size: 1.15rem;
   }
+
   .greaterthan {
     padding-top: 0.35rem;
     color: #d1d5db;
