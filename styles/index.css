@@ -66,12 +66,17 @@
   .navhome {
     display: none;
   }
-  .phoneicon {
+  .phoneicon,
+  .mail {
     display: flex;
     /* border: 1px solid white; */
     width: 20%;
-    color: #fff;
     gap: 0.4rem;
+    color: #fff;
+  }
+  /* phone icon in desktop about */
+  .abouticon {
+    color: #333;
   }
   .mail {
     color: #dde;
@@ -284,6 +289,7 @@
   .mobilesecnav {
     display: none;
   }
+
   /* Desk top about section starts here */
   .sec1 {
     /* border: 1px solid black; */

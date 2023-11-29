@@ -102,6 +102,7 @@ body {
   .navul li {
     list-style: none;
   }
+
   .navul {
     display: flex;
     justify-content: space-around;
@@ -120,10 +121,14 @@ body {
   .navhome {
     display: none;
   }
+  .desktopnavmail {
+    color: #fff;
+  }
   .phoneicon {
     display: flex;
     /* border: 1px solid white; */
     width: 20%;
+    color: #fff;
     gap: 0.4rem;
   }
 
@@ -345,7 +350,361 @@ body {
     color: #333;
     font-weight: 800;
   }
+
+  /* Desk top about section starts here */
+  .sec122 {
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    width: 100vw;
+    margin-top: 30px;
+    padding-top: 30px;
+    min-height: 70vh;
+    background-color: #f9f0fb;
+  }
+  .sec229 {
+    padding-left: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #f46b45;
+    color: #fff;
+    list-style: none;
+  }
+  .divheading {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 100%;
+  }
+
+  .heading {
+    font-weight: 900;
+    padding-bottom: 1.2rem;
+    font-size: 1.4rem;
+    color: #333;
+  }
+  .aboutdiv1 {
+    /* border: 1px solid black; */
+    padding-left: 1.53rem;
+    display: flex;
+    padding-top: 0.2rem;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .aboutdiv2 {
+    /* border: 1px solid black; */
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    background-color: #eee;
+
+    color: #333;
+  }
+
+  .div2ul {
+    padding-left: 0.8rem;
+    padding-top: 1rem;
+    padding-top: 1.5rem;
+    font-size: 0.997rem;
+    font-weight: 800;
+    color: #333;
+  }
+  .aboutdiv3 {
+    display: flex;
+    gap: 0.4rem;
+  }
+  .aboutdiv4 {
+    display: flex;
+    gap: 0.4rem;
+  }
+  .divimg {
+    padding-right: 10px;
+  }
+  .hardwareh1 {
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #333;
+  }
+  .clock {
+    color: red;
+    width: 14px;
+    height: 14px;
+  }
+  .servicesuls {
+    padding-top: 0.4rem;
+    font-size: 0.99rem;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  .callusopen,
+  .timemoney li {
+    list-style: none;
+  }
+
+  .servicesh1 {
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #333;
+  }
+  .servicesnaddress {
+    /* border: 1px solid black; */
+    margin-top: 0.8rem;
+    padding-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+  .timedesk {
+    font-size: 0.85rem;
+    padding-right: 1.3rem;
+  }
+  .timesdesk {
+    font-size: 0.85rem;
+    padding-right: 1.3rem;
+  }
+  .servicesnaddress p {
+    width: 100%;
+    height: auto;
+    padding-right: 1.3rem;
+  }
+
+  .div3content {
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .lis {
+    text-decoration: none;
+  }
+
+  .googlemaps {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    /* we are working with 16 / 9 ratio = 0.5625 */
+    position: relative;
+    height: 0;
+  }
+  .googlemaps iframe {
+    left: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  .timemoney,
+  .callusopen {
+    display: flex;
+    gap: 0.4rem;
+  }
+  .abouticon {
+    color: #333;
+  }
+
+  .mobilesecnav {
+    display: none;
+  }
+  .headingspann {
+    display: none;
+  }
+  .time {
+    display: none;
+  }
+  .times {
+    display: none;
+  }
+  /* desktop about ends here */
+
+  /* contacts desktop section starts here */
+
+  .contactssec1 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 2px 0px;
+    margin-top: 4.8rem;
+    /* padding-top: 2.58rem; */
+    background-color: #060b26;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color: #fff;
+  }
+  .contactssec2 {
+    padding: 130px;
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    gap: 1rem;
+    padding-top: 40px;
+  }
+  .contactsdiv1 {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contactsdiv1,
+  .div22,
+  .contactsdiv3 {
+    width: 33.333%;
+    height: auto;
+  }
+  .div1sub {
+    display: flex;
+    gap: 5px;
+  }
+  .contactsdiv2 {
+    display: flex;
+    gap: 5px;
+  }
+  .contactsdiv3 {
+    gap: 5px;
+    display: flex;
+    margin-left: 50px;
+  }
+  .div3h3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .div2h2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .divh1 {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+  }
+  .contactsh11 {
+    font-weight: 900;
+    font-size: 1.87rem;
+    text-align: center;
+  }
+  .circle {
+    border-radius: 74%;
+    width: 54px;
+    height: 54px;
+    padding: 10px;
+    /* background: #f00; */
+    border: 3px solid #eee;
+    color: #fff;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+  }
+  .div22 {
+    display: flex;
+    gap: 1rem;
+  }
+  /* contacts desktop section ends here */
+
+  /* footer stats here */
+
+  .foot {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* background: #020617; */
+    color: #fff;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    background-color: #f46b45;
+  }
+  .sectionsecsocial {
+    margin-top: 3.56rem;
+  }
+  .service {
+    margin-left: 1rem;
+  }
+
+  .servicesul li,
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: #060b26;
+    font-weight: 900;
+  }
+  .servicesul li:hover {
+    text-decoration: underline;
+    text-shadow: #d1d5db;
+  }
+  .service h1 {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: #020617;
+  }
+  .footcontent {
+    display: flex;
+  }
+  .desktopemail,
+  .footerul a {
+    color: #060b26;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .footerul li {
+    list-style-type: none;
+  }
+  .desktopfootimg {
+    width: 280px;
+    height: 200px;
+  }
+  .footercall,
+  .desktopcalls {
+    color: #060b26;
+    font-weight: 700;
+  }
+  .footsecondsec {
+    margin-left: 1rem;
+    padding-bottom: 1.43rem;
+  }
+  .footsecondsech1 {
+    font-size: 1.92rem;
+    color: #020617;
+    font-weight: 800;
+  }
+  .openhrs {
+    margin-bottom: 20px;
+  }
+  .openhrs h2 {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: #020617;
+  }
+  .openings {
+    display: flex;
+    gap: 5rem;
+  }
+  .openingdays a,
+  li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #060b26;
+    font-weight: 800;
+  }
+  .opening li {
+    list-style-type: none;
+  }
+  .openinghrs {
+    color: #060b26;
+    font-weight: 600;
+  }
+  .secopening {
+    margin-left: 14rem;
+    margin-top: 12rem;
+  }
+  .copyrights {
+    /* border: 1px solid #020617; */
+    margin-left: 0;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 10px;
+    height: 40px;
+    width: 100vw;
+    color: white;
+    background-color: #020617;
+  }
+  /* footer ends here */
 }
+
 @media (max-width: 899px) {
   /* SECOND NAV IN RED- */
 
