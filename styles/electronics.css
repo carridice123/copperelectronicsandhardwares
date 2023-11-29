@@ -867,12 +867,29 @@ body {
 
 @media (max-width: 899px) {
   /* SECOND NAV IN RED------------------------- */
-
+  .desktopfirstsec,
+  .navcontent {
+    display: none;
+  }
+  /* disallow desktop nav */
+  .sec11 {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  /* disallow footer logo on mobile */
+  .desktopfootimg {
+    display: none;
+  }
   .mobilesecnav {
     display: flex;
     width: 100%;
     min-height: 3rem;
     background-color: brown;
+    padding-top: 1rem;
     color: #fff;
   }
   .instagram,
@@ -893,11 +910,11 @@ body {
     padding-top: 0.13rem;
     padding-right: 0.3rem;
   }
-  .div1 {
+  .secnavdiv1 {
     display: flex;
     gap: 0.23rem;
   }
-  .div2 {
+  .secnavdiv2 {
     display: flex;
     gap: 0.7rem;
   }

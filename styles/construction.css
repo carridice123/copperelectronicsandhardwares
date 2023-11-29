@@ -750,6 +750,24 @@ body {
   /* footer ends here */
 }
 @media (max-width: 899px) {
+  .desktopfirstsec,
+  .navcontent {
+    display: none;
+  }
+  /* disallow desktop nav */
+  .sec11 {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  /* disallow footer logo on mobile */
+  .desktopfootimg {
+    display: none;
+  }
+
   .sec1 {
     display: flex;
     flex-direction: column;
@@ -873,7 +891,7 @@ body {
 
   .mobilesecnav {
     display: flex;
-    padding-top: 0.3rem;
+    padding-top: 1rem;
     width: 100%;
     min-height: 3rem;
     background-color: brown;

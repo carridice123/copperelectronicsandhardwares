@@ -706,12 +706,29 @@ body {
 }
 
 @media (max-width: 899px) {
+  .desktopfirstsec,
+  .navcontent {
+    display: none;
+  }
+  /* disallow desktop nav */
+  .sec11 {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  /* disallow footer logo on mobile */
+  .desktopfootimg {
+    display: none;
+  }
   /* SECOND NAV IN RED- */
 
   .mobilesecnav {
     display: flex;
     width: 100%;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     min-height: 3rem;
     background-color: brown;
     color: #fff;
